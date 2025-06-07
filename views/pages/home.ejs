@@ -1,0 +1,168 @@
+<!-- views/pages/home.ejs -->
+<%- include('../partials/header') %>
+
+<!-- Hero Section -->
+<!-- <section class="hero" id="home">
+    <div class="hero-content">
+        <h1 class="hero-h1">Empowering Energy Innovation</h1>
+        <p>At Trackzone Energy Resources Limited, we combine indigenous expertise with global standards to provide exceptional engineering and energy solutions tailored for Nigeria's oil and gas sector.</p>
+        <a href="/#features" class="cta-button">Get Started</a>
+    </div>
+</section> -->
+
+<!-- Hero Slider -->
+    <section class="hero-slider">
+        <!-- Slide 1 -->
+        <div class="slide slide-1 active">
+            <div class="hero-content">
+                <h1 class="hero-title">Empowering Energy Innovation</h1>
+                <p class="hero-description">
+                    At Trackzone Energy Resources Limited, we combine indigenous expertise with global standards to provide exceptional engineering and energy solutions tailored for Nigeria's oil and gas sector.
+                </p>
+                <a href="/#features" class="cta-button">Get Started</a>
+            </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="slide slide-2">
+            <div class="hero-content">
+                <h1 class="hero-title">Driving Sustainable Solutions</h1>
+                <p class="hero-description">
+                    Leading the transformation of Nigeria's energy landscape through cutting-edge technology, environmental stewardship, and innovative engineering solutions that power the future.
+                </p>
+                <a href="/#features" class="cta-button">Get Started</a>
+            </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="slide slide-3">
+            <div class="hero-content">
+                <h1 class="hero-title">Excellence in Energy Services</h1>
+                <p class="hero-description">
+                    From offshore platforms to onshore facilities, we deliver world-class engineering services that meet international standards while supporting local economic development.
+                </p>
+                <a href="/#features" class="cta-button">Get Started</a>
+            </div>
+        </div>
+
+        <!-- Navigation Arrows -->
+        <button class="slider-arrow prev-arrow" onclick="previousSlide()">‹</button>
+        <button class="slider-arrow next-arrow" onclick="nextSlide()">›</button>
+
+        <!-- Navigation Dots -->
+        <div class="slider-nav">
+            <div class="nav-dot active" onclick="currentSlide(1)"></div>
+            <div class="nav-dot" onclick="currentSlide(2)"></div>
+            <div class="nav-dot" onclick="currentSlide(3)"></div>
+        </div>
+</section>
+
+<section class="features" id="features">
+    <h2 class="section-title">Our Features</h2>
+    <div class="features-container">
+        <div class="feature-card oilfield-equipment">
+            <div class="feature-icon">🛠</div>
+            <h3>Oilfield Equipment & Technical Support</h3>
+            <p>Supply of drilling tools, rig logistics, and wellhead systems.</p>
+        </div>
+        <div class="feature-card production-facilities">
+            <div class="feature-icon">⚡</div>
+            <h3>Early Production Facilities & Modular Systems</h3>
+            <p>Deploying temporary and early-phase production solutions</p>
+        </div>
+        <div class="feature-card petroleum-trading">
+            <div class="feature-icon">🛢</div>
+            <h3>Petroleum Trading & Product Handling</h3>
+            <p>Crude and refined product marketing with import/export logistics.</p>
+        </div>
+        <div class="feature-card drilling-fluids">
+            <div class="feature-icon">🧪</div>
+            <h3>Drilling Fluids & Additives</h3>
+            <p>Supply of drilling muds and technical wellbore stability support.</p>
+        </div>
+        <div class="feature-card manpower-development">
+            <div class="feature-icon">👷</div>
+            <h3>Manpower Development & Technical Training</h3>
+            <p>Recruitment and hands-on oilfield and HSE training programs.</p>
+        </div>
+        <div class="feature-card data-management">
+            <div class="feature-icon">📊</div>
+            <h3>Field Data Management & Digital Solutions</h3>
+            <p>Enabling real-time data capture, analysis, and reporting for enhanced operational visibility and decision-making.</p>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section class="principles-section">
+    <h2>Our Guiding Principles</h2>
+    <h3>Empowering Energy Development in Nigeria</h3>
+    
+    <div class="principles-container">
+        <!-- Vision Card -->
+        <div class="principle-card">
+            <div class="principle-image">
+                <img src="/images/our_vision.png">
+            </div>
+            <h4>Vision</h4>
+            <p>To be the leading provider of innovative engineering solutions that propel the oil and gas sector in Nigeria towards sustainability and excellence.</p>
+        </div>
+        
+        <!-- Mission Card -->
+        <div class="principle-card">
+            <div class="principle-image">
+                <img src="/images/our_mission.png">
+            </div>
+            <h4>Mission</h4>
+            <p>Our mission is to deliver top-tier engineering and energy services while fostering local talent and adhering to global standards.</p>
+        </div>
+        
+        <!-- Values Card -->
+        <div class="principle-card">
+            <div class="principle-image">
+                <img src="/images/our_value.png">
+            </div>
+            <h4>Values</h4>
+            <p>We value integrity, collaboration, and excellence in all our endeavors, committed to making a positive impact in our communities.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Advantage Section -->
+<section class="advantage-section">
+    <h2>Our Unique Advantage</h2>
+    <h3>Local Expertise, Global Standards</h3>
+    
+    <div class="advantage-container">
+        <div class="advantage-image">
+            <img src="https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_clip,w_960,h_720,f_auto,q_auto/unsplashcom/photo-1677441070685-236685203a7f" alt="Nigerian landscape">
+        </div>
+        
+        <div class="advantage-content">
+            <h4>Local Content Advantage</h4>
+            <p>We pride ourselves on our deep understanding of the local market dynamics and regulatory environment. This allows us to tailor our solutions to meet the specific needs of our clients while ensuring compliance and sustainability.</p>
+        </div>
+    </div>
+    <div class="advantage-container">
+        <div class="advantage-image">
+            <img src="https://images.pexels.com/photos/11150272/pexels-photo-11150272.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Nigerian landscape">
+        </div>
+        
+        <div class="advantage-content">
+            <h4>Agile Approach</h4>
+            <p>Our cross-functional teams are designed to be agile and responsive. We adapt quickly to changes in project requirements, ensuring that we deliver optimal solutions without compromising on quality or timelines.</p>
+        </div>
+    </div>
+    <div class="advantage-container">
+        <div class="advantage-image">
+            <img src="https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_clip,w_960,h_720,f_auto,q_auto/unsplashcom/photo-1656919637422-de9d98983d4c" alt="Nigerian landscape">
+        </div>
+        
+        <div class="advantage-content">
+            <h4>Collaborative Culture</h4>
+            <p>We foster a collaborative culture that encourages innovation and knowledge sharing. Our diverse teams bring together a wealth of experience and expertise, enabling us to tackle complex challenges effectively.</p>
+        </div>
+    </div>
+</section>
+
+<%- include('../partials/footer') %>

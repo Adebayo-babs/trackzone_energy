@@ -1,0 +1,194 @@
+<%- include('../partials/header') %>
+
+<style>
+
+    .article-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 25px;
+        margin-bottom: 40px;
+    }
+
+    .article-card {
+        flex: 1 1 300px;
+        background-color: #fff;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .article-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .article-header {
+        padding: 25px 25px 15px;
+    }
+
+    .article-title {
+        font-size: 28px;
+        font-weight: 700;
+        margin-bottom: 12px;
+        color: #1d2b3a;
+    }
+
+    .article-author {
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+
+    .author-name {
+        color: #2980b9;
+        font-weight: 600;
+        margin-left: 5px;
+        text-decoration: none;
+        transition: color 0.2s;
+    }
+
+    .author-name:hover {
+        color: #1a5784;
+        text-decoration: underline;
+    }
+
+    .marketplace-section {
+        display: flex;
+        align-items: center;
+        padding: 20px 25px;
+        background-color: #f8f9fa;
+        border-top: 1px solid #eaeaea;
+    }
+
+    .marketplace-image {
+        width: 200px;
+        height: 200px;
+        border-radius: 8px;
+        object-fit: cover;
+        margin-right: 15px;
+    }
+
+    .marketplace-content {
+        flex: 1;
+    }
+
+    .marketplace-title {
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 8px;
+        color: #1d2b3a;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    .marketplace-desc {
+        font-size: 14px;
+        margin-bottom: 12px;
+        color: #555;
+    }
+
+    .btn {
+        display: inline-block;
+        background-color: #ff5722;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 30px;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 14px;
+        transition: background-color 0.3s ease;
+        border: none;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: #e64a19;
+    }
+
+    .article-footer {
+        padding: 15px 25px;
+        display: flex;
+        justify-content: space-between;
+        color: #666;
+        font-size: 14px;
+        border-top: 1px solid #eaeaea;
+    }
+
+    .date-label {
+        font-weight: 600;
+        margin-right: 3px;
+    }
+
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="article-row">
+            <!-- Article Card 1 -->
+            <div class="article-card">
+                <div class="article-header">
+                    <h2 class="article-title">Energy Security in West Africa: Why Local Content Matters</h2>
+                    <!-- <div class="article-author">
+                        Written by: <a href="#" class="author-name">Anna Fitzgerald</a>
+                    </div> -->
+                </div>
+                <div class="marketplace-section">
+                    <img src="https://images.pexels.com/photos/1060803/pexels-photo-1060803.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Marketplace" class="marketplace-image">
+                    <div class="marketplace-content">
+                        <h3 class="marketplace-title">Energy Security in West Africa</h3>
+                        <p class="marketplace-desc">West Africa is rich in oil, gas, and other energy resources. Countries like Nigeria, Ghana, and...</p>
+                        <a href="/blog1" class="btn">Learn More</a>
+                    </div>
+                </div>
+                <div class="article-footer">
+                    <!-- <div><span class="date-label">Updated:</span> 01/05/24</div> -->
+                    <div><span class="date-label">Published:</span> 12/05/25</div>
+                </div>
+            </div>
+            
+            
+            
+            <div class="article-card">
+                <div class="article-header">
+                    <h2 class="article-title">Sustainable Practices in Petroleum Trading and Logistics</h2>
+                </div>
+                <div class="marketplace-section">
+                    <img src="https://images.pexels.com/photos/1060803/pexels-photo-1060803.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Marketplace" class="marketplace-image">
+                    <div class="marketplace-content">
+                        <h3 class="marketplace-title">Sustainable Practices in Petroleum Trading and Logistics</h3>
+                        <p class="marketplace-desc">Petroleum trading and logistics play...</p>
+                        <a href="/blog2" class="btn">Learn More</a>
+                    </div>
+                </div>
+                <div class="article-footer">
+                    <!-- <div><span class="date-label">Updated:</span> 01/05/24</div> -->
+                    <div><span class="date-label">Published:</span> 12/05/25</div>
+                </div>
+            </div>
+
+            <div class="article-card">
+                <div class="article-header">
+                    <h2 class="article-title">Why Trackzone Energy Is Your Best Plug in the Energy Sectors</h2>
+                    
+                </div>
+                <div class="marketplace-section">
+                    <img src="https://images.pexels.com/photos/1060803/pexels-photo-1060803.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Marketplace" class="marketplace-image">
+                    <div class="marketplace-content">
+                        <h3 class="marketplace-title">Why Trackzone Energy Is Your Best Plug in the Energy Sector</h3>
+                        <p class="marketplace-desc">In today’s fast-changing energy landscape, working with ...</p>
+                        <a href="/blog3" class="btn">Learn More</a>
+                    </div>
+                </div>
+                <div class="article-footer">
+                    <!-- <div><span class="date-label">Updated:</span> 01/05/24</div> -->
+                    <div><span class="date-label">Published:</span> 08/01/25</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<%- include('../partials/footer') %>
