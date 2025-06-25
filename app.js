@@ -38,7 +38,7 @@ app.post('/api/contact', async (req, res) => {
         // Configure email transporter with proper SMTP settings
         const transporter = nodemailer.createTransport({
             // Gmail SMTP Configuration (Fixed)
-            host: 'adebayojamiu38@gmail.com',
+            host: 'smtp.gmail.com',
             port: 587, // Use 587 for STARTTLS
             secure: false, // Use STARTTLS
             auth: {
