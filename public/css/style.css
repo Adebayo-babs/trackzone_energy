@@ -977,6 +977,7 @@ textarea.form-control {
     }
     
     .leader-image {
+        padding-top: 30px;
         height: 250px;
         width: 100%;
         overflow: hidden;
@@ -984,6 +985,7 @@ textarea.form-control {
     }
 
     .leader-image img {
+        padding-top: 30px;
         width: 100% !important;
         height: 100% !important;
         object-fit: cover !important;
